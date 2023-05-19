@@ -15,7 +15,7 @@ const ctx = canvas.getContext('2d');
 let resrt = document.querySelector('span');
 let imgbox = document.querySelector('.imgbox');
 function resetValue(){
-  imge.style.filter='none'
+  ctx.filter='none'
   saturate.value='100'
   Contrast.value='100'
   Brightness.value='100'
@@ -24,6 +24,8 @@ function resetValue(){
   Grayscale.value='0'
   Blure.value='0'
   hue_rotate.value='0'
+   ctx.drawImage(imge, 0, 0, canvas.width, canvas.height);
+}
 }
 
 window.onload = function(){
