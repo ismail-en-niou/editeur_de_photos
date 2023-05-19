@@ -24,7 +24,7 @@ function resetValue(){
   Grayscale.value='0'
   Blure.value='0'
   hue_rotate.value='0'
-   ctx.drawImage(imge, 0, 0, canvas.width, canvas.height);
+  ctx.drawImage(imge, 0, 0, canvas.width, canvas.height);
 }
 }
 
