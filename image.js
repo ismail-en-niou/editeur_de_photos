@@ -26,7 +26,7 @@ function resetValue(){
   hue_rotate.value='0'
   ctx.drawImage(imge, 0, 0, canvas.width, canvas.height);
 }
-}
+
 
 window.onload = function(){
     download.style.display ='none';
